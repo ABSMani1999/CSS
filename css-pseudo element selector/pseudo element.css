@@ -1,0 +1,13 @@
+* { background-color:silver;   }
+
+.one::first-line{color:maroon;}
+
+.two::first-letter{color:maroon; font-size:24px;}
+
+.three::before { content:ontawesome.com/v4/icon/smile-o;}
+
+.four::after { content:<i class="fa fa-smile-o" aria-hidden="true"></i> ;} 
+
+.li::marker { content:'*'; font-size:20px; color:purple;}
+
+.six::selection { color:red; }
