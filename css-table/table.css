@@ -1,0 +1,21 @@
+table,th,td{border:5px solid maroon; border-collapse:collapse; margin:10%; text-align:centre;} 
+
+table{text-align:center;}
+th{background-color:silver;}
+ta{background-color:lime;}
+eng{background-color:gray;}
+mat{background-color:green;}
+sci{background-color:#ff00ff;}
+ss{background-color:yellow;}
+tr,th,table { border-collapse:collapse;
+	
+			}
+table { width:100%; height:auto;
+}
+td,th{ height:20px;  vertical-align:medium; padding:15px; }
+
+tr:nth-child(even) { background-color:red;    }
+tr:nth-child(odd) { background-color:blue;  }
+
+tr:hover{  background-color:yellow; color:red; font-size:24px;   } 
+
